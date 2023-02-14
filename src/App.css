@@ -1,0 +1,88 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+}
+.nav{
+    position: fixed;
+}
+.container-fluid{
+    box-shadow: 10px 10px 10px black;
+margin-bottom: 10px;
+background-color:rgb(165, 155, 136);
+margin-top: -8px;
+}
+.dropdown-item:hover,.nav-link:hover{
+    background-color: rgb(93, 93, 118);
+    color: white;
+    font-weight: 600;
+}
+.nav-link{
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.nav-link:focus,.nav-link:focus{
+    outline: none;
+    background-color: transparent;
+    font-weight: 900;
+}
+.nav-link.active{
+    font-weight: 900;
+}
+.nav-link.active:hover{
+    color: white;
+}
+.navbar-toggler{
+    color: transparent;
+    border: none;
+}
+.btn{
+    color: white;
+}
+.form-control{
+    border: 1px solid black;
+    outline: none;
+}
+.form-control:active{
+    outline: none;
+}
+.header{
+    font-family: cursive;
+    position: relative;
+    left: 35%;
+    font-weight: 900;
+}
+.now{
+    font-family: cursive;
+    position: relative;
+    left: 35%;
+    font-weight: 900;
+    color: white;
+}
+.btn.textBtn{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.btnArea{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+}
+.btnArea::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width: 400px) {
+    .btnArea{
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+    }
+    .header{
+        font-family: cursive;
+        position: relative;
+        left: 20%;
+        font-weight: 900;
+    }
+  }
