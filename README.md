@@ -1,4 +1,4 @@
-# Getting Started with React To-Do-List
+# Getting Started with React Character-App
 ## Developer: Rohit Ambawata
 ### Terminal Part
 Open Editor 'Suggestion: Use - VS Code' and open terminal from left - upper side tabs. Now just clone this git as below :
